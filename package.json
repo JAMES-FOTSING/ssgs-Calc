@@ -1,0 +1,12 @@
+{
+  "name": "ssgs-calc",
+  "version": "1.0.0",
+  "description": "Semplice Calcolatrice",
+  "main": "calcolatrice.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "James Fotsing",
+  "license": "ISC"
+}
