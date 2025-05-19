@@ -80,7 +80,7 @@ ssgs-Calc/
 &emsp;&emsp;  [calcolatrice.js]   # File principale per l'interfaccia a riga di comando <br>
 &emsp; &emsp; [operazioni.js]     # Modulo con le funzioni matematiche<br>
 &emsp; tests/<br>
-&emsp;&emsp;  [operazioni.test.js] # Test per il modulo operazioni
+&emsp;&emsp;  [operazioni.test.js] # Test per il modulo operazioni<br>
 [package.json]         # Configurazione del progetto e dipendenze    
 [package-lock.json]    # Configurazione del progetto e dipendenze    
 [README.md]            # Documentazione del progetto
