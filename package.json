@@ -1,12 +1,22 @@
 {
   "name": "ssgs-calc",
   "version": "1.0.0",
-  "description": "Semplice Calcolatrice",
-  "main": "calcolatrice.js",
-  "scripts": {
-    "test": "jest"
+  "description": "Semplice Calcolatrice per operazioni matematiche di base",
+  "main": "src/Calcolatrice.js",
+  "directories": {
+    "test": "tests"
   },
-  "keywords": [],
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node src/Calcolatrice.js"
+  },
+  "keywords": ["calcolatrice", "simplice", "js"],
   "author": "James Fotsing",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
