@@ -2,7 +2,7 @@
   "name": "ssgs-calc",
   "version": "1.0.0",
   "description": "Semplice Calcolatrice per operazioni matematiche di base",
-  "main": "src/Calcolatrice.js",
+  "main": "src/calcolatrice.js",
   "directories": {
     "test": "tests"
   },
