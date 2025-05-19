@@ -15,18 +15,26 @@ jobs:
     steps:
       # Step 1: Checkout the repository
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # Step 2: Set up Node.js
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '16' # Sostituisci con la versione di Node.js che usi nel tuo progetto
+          node-version: '18'
+          cache: 'npm'
 
       # Step 3: Install dependencies
       - name: Install dependencies
-        run: npm install --save-dev jest
+        run: npm ci
 
       # Step 4: Run tests
       - name: Run tests
-        run: npm test
+        run: npm test -- --coverage
+
+      # Step 5: Upload coverage report
+      - name: Upload coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: coverage
