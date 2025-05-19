@@ -72,17 +72,18 @@ Opzione di uscita: L'utente può selezionare l'opzione "Esci" per terminare il p
 
 -messaggio di benvenuto o di uscita.
 
-## Struttura del Progetto**
-La struttura del progetto è organizzata come segue:
-ssgs-Calc/
-├── src/
-│   ├── [calcolatrice.js]   # File principale per l'interfaccia a riga di comando
-│   ├── [operazioni.js]     # Modulo con le funzioni matematiche
-├── tests/
-│   ├── [operazioni.test.js] # Test per il modulo operazioni
-├── [package.json]         # Configurazione del progetto e dipendenze
-├── [package-lock.json]    # Configurazione del progetto e dipendenze
-├── [README.md]            # Documentazione del progetto
+## Struttura del Progetto
+La struttura del progetto è organizzata come segue:     
+
+ssgs-Calc/    
+&emsp; src/ <br>
+&emsp;&emsp;  [calcolatrice.js]   # File principale per l'interfaccia a riga di comando <br>
+&emsp; &emsp; [operazioni.js]     # Modulo con le funzioni matematiche<br>
+&emsp; tests/<br>
+&emsp;&emsp;  [operazioni.test.js] # Test per il modulo operazioni
+[package.json]         # Configurazione del progetto e dipendenze    
+[package-lock.json]    # Configurazione del progetto e dipendenze    
+[README.md]            # Documentazione del progetto
 
 ## CI/CD
 Il progetto può essere configurato per utilizzare GitHub Actions per l'integrazione continua. workflow per eseguire i test automaticamente e fare la verifica della coverage:
